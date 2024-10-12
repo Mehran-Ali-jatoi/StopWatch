@@ -1,0 +1,63 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main h1{
+  padding-bottom: 10px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main .stopWatch{
+  width: 40%;
+  height: 40%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.main .stopWatch .top{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .stopWatch .top div{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.main .stopWatch .top div span{
+  color: white;
+  font-size: 30px;
+}
+.main .stopWatch .top div p{
+  color: white;
+  font-size: 35px;
+}
+.main .stopWatch .bottom{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .stopWatch .bottom div{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .stopWatch .bottom div button{
+  width: 40%;
+  height: 45%;
+}
